@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>联想商城的重构</title>
+	<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+
+	<!-- 第一层  导航 -->
+	<nav>
+		<div>
+			<li class="first-one">个人及家用</li>
+			<li class="first-two">商用</li>
+			<li class="first-two">企业级</li>
+			<li class="first-two">服务</li>
+			<li class="first-two">聚享汇员专享</li>
+			<li class="first-two">社交平台</li>
+			<li class="first-two">手机版</li>
+			<li class="first-three">购物车</li>
+			<li class="first-three">注册</li>
+			<li class="first-four first-three">登录</li>
+		</div>
+	</nav>
+
+
+	<!-- 第二层   头部 -->
+	<header>
+		<div class="headiv">
+			<div class="headiv-one">
+				<button class="head-button">Lenovo</button>
+				<b>联想商城</b>
+			</div>
+			<div class="headiv-two">
+				<div class="headiv-ttw">
+					搜索
+				</div>
+				<div class="headiv-tto">
+					<span>Mix 4</span>
+					<button>小新</button>
+					<button>New S2</button>
+					<button>拯救者</button>
+				</div>
+			</div>
+			<div class="headiv-three">
+				<li class="headiv-three-li">首页</li>
+				<li>爆款</li>
+				<li>以旧换新</li>
+				<li>游戏专区</li>
+				<li>中小企业</li>
+				<li>小新专属L码通道</li>
+				<li>Lenovo PC社区</li>
+				<li>联想合伙人</li>
+			</div>
+		</div>
+	</header>
+
+
+	<!-- 第三层    有问题为什么图片放在下面就上不去-->
+	<div class="third">
+		<div class="third-two">
+			<img src="../images/联想中国_07.png" alt="图片走丢了。。。">
+		</div>
+		<div class="third-one">
+			<div class="tho-one">
+				<b>Lenono电脑分类</b>
+			</div>
+			<div class="tho-two">
+				<li class="tho-three-lone"><b>笔记本</b></li>
+				<li>常规笔记本</li>
+				<li>超薄笔记本</li>
+				<li>互联网爆款</li>
+				<li>游戏本</li>
+				<li>变形笔记本</li>
+			</div>
+			<div class="tho-three">
+				<li class="tho-three-lone"><b>台式机</b></li>
+				<li>一体台式机</li>
+				<li>分体台式机</li>
+			</div>
+		</div>
+		<!-- <div class="third-two">
+			<img src="../images/联想中国_07.png" alt="图片走丢了。。。">
+		</div> -->
+	</div>
+
+
+
+
+	<!-- 第四层 -->
+	<div class="fourth">
+		<div class="fourth-one">
+			<img src="../images/联想中国_24.png" alt="图片走丢了。。。">
+			<b>今日热门</b>
+		</div>
+		<div class="fourth-two">
+			<div class="fourth-two-one" style="width: 600px;">
+				<img src="../images/Lenono_05.png" alt="图片走丢了。。。">
+			</div>
+			<div class="fourth-two-one" style="width: 598px;border: 0.5px solid #E6E6E6;">
+				<img src="../images/Lenono_07.png" alt="图片走丢了。。。">
+			</div>
+			<div>
+				<img src="../images/Lenono_09.png" alt="图片走丢了。。。">
+			</div>
+			<div>
+				<img src="../images/Lenono_10.png" alt="图片走丢了。。。">
+			</div>
+			<div>				
+				<img src="../images/Lenono_11.png" alt="图片走丢了。。。">
+			</div>
+			<div>
+				<img src="../images/Lenono_12.png" alt="图片走丢了。。。">
+			</div>			
+		</div>
+	</div>
+
+
+
+	<!-- 重复层的css实现  第五层的布局 -->
+	<div class="resee-div">
+		<div class="reseeddone" style="margin-left: 0px;">
+			<img src="../images/Lenono_15.png" alt="图片走丢了。。。">
+		</div>
+		<div>
+			<img src="../images/Lenono_17.png" alt="图片走丢了。。。">
+		</div>
+		<div>
+			<img src="../images/Lenono_19.png" alt="图片走丢了。。。">
+		</div>
+		<div class="reseeddtwo" style="margin-right: 0px;">
+			<img src="../images/Lenono_21.png" alt="图片走丢了。。。">
+		</div>
+	</div>
+
+		
+
+	<!-- 第六层的布局 -->
+	<div class="sixth">
+		<p><b>帮你选</b></p>
+		<div class="sixth-one">
+			<div class="sixth-one-one">
+				<p><b>笔记本</b></p>
+				<p><b>台式机</b></p>
+			</div>
+			<div class="sixth-one-two">
+				<p><b>选择属于你的标签</b></p>
+				<li class="sixth-one-tli">校园学生</li>
+				<li>时尚学生</li>
+				<li class="sixth-one-tli">家庭娱乐</li>
+				<li>商务办公</li>
+				<li class="sixth-one-tli">高清游戏</li>
+				<li>轻薄便携</li>
+			</div>
+			<div class="sixth-one-two sixth-one-three">
+				<p><b>选择您的预算</b></p>
+				<li class="sixth-one-tli">0-2299</li>
+				<li>3000-3999</li>
+				<li class="sixth-one-tli">4000-4999</li>
+				<li>5000-6999</li>
+				<li class="sixth-one-tli">7000-9999</li>
+				<li>10000以上</li>
+			</div>
+		</div>
+		<div class="sixth-two">
+			<img src="../images/Lenono_27.png" alt="图片走丢了。。。">
+		</div>
+		<div class="sixth-three">
+			<p><b>新品专区</b></p>
+			<img src="../images/Lenono_30.png" alt="图片走丢了。。。">
+		</div>
+		<div class="sixth-three sixth-four">
+			<p>新品试用</p>
+			<img src="../images/Lenono_32.png" alt="图片不想见你。。。">
+		</div>
+	</div>
+
+
+
+	<!-- 第七层的布局 -->
+	<div class="seventh">
+		<p><b>官网专属</b></p>
+		<div class="seventh-one">
+			<p><b>火热特促</b></p>
+		</div>
+		<div class="seventh-two">
+			<div class="seventh-two-div">
+				<p>专属延保</p>
+				<span class="">更多</span>
+				<img src="../images/Lenono_37.png" alt="图片不想见你。。。">
+			</div>
+			<div class="seventh-two-div">
+				<p style="background-color: #F1B04F;">以旧换新</p>
+				<span style="background-color: #F1B04F;">更多</span>
+				<img src="../images/Lenono_41.png" alt="图片不想见你。。。">
+			</div>
+		</div>
+		<div class="seventh-two seventh-three">
+			<p style="background-color: #C490BF;">专属延保</p>
+				<span class="seventh-three-span" style="background-color: #C490BF;">更多</span>
+				<img src="../images/Lenono_39.png" alt="图片不想见你。。。">
+		</div>
+	</div>
+
+
+
+	
+	<!-- 第八层的布局 -->
+	<div class="eighth">
+		<p><b>最新热帖</b></p>
+		<div class="eighth-one">
+			<div class="eighth-one-one">
+				<img src="../images/Lenono_44.png" alt="图片不想见你。。。">
+			</div>
+			<div class="eighth-one-two">
+				<div class="eighth-one-two-three">
+					<p><b>最新热帖</b></p>
+					<span>更多</span>
+				</div>
+				<li>
+					[晒单·评测]超薄机身依然具有强健的性能 联想IdeaPad 700s的整机性能测试
+				</li>
+				<li>
+					[产品经理分享]Yogo 900设计细节揭秘-体会技术宅们的匠心
+				</li>
+				<li>
+					[晒单·测评]轻薄加颜值 全球最爆的14寸笔记本脸型IdeaPad 700s外观详解
+				</li>
+			</div>
+		</div>
+	</div>
+
+
+
+
+	<!-- 重复层的css实现  第九层的布局 -->
+	<div class="resee-div">
+		<div class="reseeddone" style="margin-left: 0px;">
+			<img src="../images/Lenono_47.png" alt="图片走丢了。。。">
+		</div>
+		<div>
+			<img src="../images/Lenono_49.png" alt="图片走丢了。。。">
+		</div>
+		<div>
+			<img src="../images/Lenono_51.png" alt="图片走丢了。。。">
+		</div>
+		<div class="reseeddtwo" style="margin-right: 0px;">
+			<img src="../images/Lenono_53.png" alt="图片走丢了。。。">
+		</div>
+	</div>
+
+
+
+
+	<!-- 第十层的页面布局 -->
+	<div class="tenth">
+		<div>
+			<img src="../images/联想中国_94.png" alt="图片不想见你。。。">
+			<span>官方品质保障</span>
+		</div>
+		<div>
+			<img src="../images/联想中国_96.png" alt="图片不想见你。。。">
+			<span>1对1客户式服务</span>
+		</div>
+		<div>
+			<img src="../images/联想中国_99.png" alt="图片不想见你。。。">
+			<span>个性化定制服务</span>
+		</div>
+		<div>
+			<img src="../images/联想中国_102.png" alt="图片不想见你。。。">
+			<span>七天无理由退换货</span>
+		</div>
+		<!-- 知道为什么设置有浮动没有飘到右边去 -->
+		<div class="tenth-last">
+			<span>新品先体验</span>			
+			<img src="../images/联想中国_105.png" alt="图片不想见你。。。">
+		</div>
+	</div>
+
+
+
+	<!-- 第十一层的页面布局 -->
+	<div class="eleventh">
+		<div class="eleventh-one" style="margin-left: 0px;">
+			<span>购物指南</span>
+			<li><a href="#">服务商信息</a></li>
+			<li><a href="#">购买流程</a></li>
+			<li><a href="#">注册信息</a></li>
+		</div>
+		<div>
+			<span>配送方式</span>
+			<li><a href="#">配送方式</a></li>
+			<li><a href="#">配送方信息</a></li>
+			<li><a href="#">签收原则</a></li>
+			<li><a href="#">物流查询</a></li>
+		</div>
+		<div>
+			<span>支付方式</span>
+			<li><a href="#">支付方式</a></li>
+			<li><a href="#">支付问题</a></li>
+			<li><a href="#">分期支付</a></li>
+		</div>
+		<div>
+			<span>订单信息</span>
+			<li><a href="#">订单信息</a></li>
+			<li><a href="#">其他频道订单发票</a></li>
+		</div>
+		<div>
+			<span>售后服务</span>
+			<li><a href="#">Lenovo频道商品售后</a></li>
+			<li><a href="#">无理由退换货说明</a></li>
+			<li><a href="#">24小时在线客服</a></li>
+		</div>
+		<div style="margin-left: 0px;float: right;">
+			<span>其他说明</span>
+			<li><a href="#">服务承诺</a></li>
+			<li><a href="#">账户安全</a></li>
+			<li><a href="#">产品安全</a></li>
+		</div>
+	</div>
+	
+
+
+
+	<footer>
+		<div style="padding-left: 80px;">
+			<li class="footli-first">关于联想</li>
+			<li class="footli-one">联系我们</li>
+			<li class="footli-one">工作机会</li>
+			<li class="footli-one">新闻中心</li>
+			<li class="footli-one">聚享汇会员专享</li>
+			<li class="footli-one">联想社区</li>
+			<li class="footli-one">NBD</li>
+			<li class="footli-one">联想超融合</li>
+			<li class="footli-one">联想官网热搜榜</li>
+			<li class="footli-one">分类大全</li>
+			<li class="footli-one">联想产品大全</li>
+			<li class="footli-one">智慧医疗</li>
+		</div>
+
+		<div style="padding-left:70px;">
+			<li class="footli-second">版权所有：1998-2016 联想集团</li>
+			<li class="footli-two">法律公告</li>
+			<li class="footli-two">隐私保护</li>
+			<li class="footli-two">京ICP备11035381</li>
+			<li class="footli-two">京公网安备110108007970</li>
+			<li class="footli-two">营业执照： 110000410127232</li>
+			<li class="footli-two">
+				<img src="../images/联想中国_121.png" alt="图片不想见你。。。">
+				销售网点
+			</li>
+			<li class="footli-two">
+				<img src="../images/联想中国_121.png" alt="图片不想见你。。。">
+				服务网点
+			</li>
+		</div>
+	</footer>
+
+	<!-- 固定层 -->
+	<div class="fixed">
+		<img src="../images/联想中国_112.png" alt="图片不想见你。。。">
+		<select name="" id="">
+			<option value="china" selected>China</option>
+			<option value="england">England</option>
+			<option value="amrican">American</option>
+		</select>
+	</div>
+</body>
+</html>

@@ -1,0 +1,366 @@
+/*总的声明处*/
+*{
+	margin: 0px;
+	padding: 0px;
+}
+nav,header,footer{
+	display:block;
+}
+
+
+
+
+/*导航区的css样式的声明*/
+nav{
+	background-color:#000000;
+}
+nav *{
+	display: block;
+}
+div.nav-one{
+	width: 953px;
+	height: 51px;
+	margin:0px auto;
+	overflow: hidden;
+}
+div.nav-one p{
+	color: #FFFFFF;
+	margin-top: 20px;
+	font-size: 20px;
+	float: left;
+}
+div.nav-one li{
+	list-style: none;
+	float:right;
+	font-size: 12px;
+	color: #FFFFFF;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+
+div.nav-two{
+	width: 953px;
+	height: 54px;
+	margin: 0px auto;
+	overflow:hidden;
+}
+div.nav-two li{
+	list-style: none;
+	color: #FFFFFF;
+	float: left;
+	margin-right: 30px;
+	margin-top: 25px;
+	font-size: 12px;
+	margin-bottom:10px;
+}
+div.nav-two div{
+	display: block;
+	height: 36px;
+	width: 198px;
+	float: right;
+	margin-right: 0px;
+	margin-bottom: 5px;
+	border:1px solid #424242;
+}
+div.nav-two>div>img{
+	display: block;
+	float: right;
+	margin-top:10px;
+	margin-bottom:8px;
+	margin-right: 0px;
+}
+div.nav-two>div>input{
+	height: 35px;
+	width: 180px;
+	float: left;
+	background-color: #FFFFFF;
+}
+
+/*图片层的css样式实现*/
+div.nav-three{
+	clear: both;
+	width: 1200px;
+	margin:0px auto;
+	height: 520px;
+}
+
+
+/*头部css样式的实现*/
+header{
+	width: 953px;
+	margin:0px auto;
+	overflow: hidden;
+}
+header *{
+	display: block;
+}
+div.header-two,div.header-one{
+	width: 953px;
+	margin:0px auto;
+}
+div.header-one p{
+	float:left;
+	margin-top:40px;
+	margin-bottom:20px;
+}
+div.header-one img{
+	float: right;
+	margin-top:55px;
+	margin-bottom:20px;
+	margin-right:2px;
+}
+div.header-two img{
+	margin:0px;
+	float:left;
+}
+
+div.header-two div{
+	width:232px;
+	height: 272px;
+	float: left;
+	margin-left:7px;
+	background-color:#EFF0F1;
+}
+div.header-two-one{
+	clear:both;
+	/*margin-left:0px;*/
+}
+div.header-two li{
+	list-style:none;
+	font-size:12px;
+	float:left;
+	clear:both;
+	color:#AC9986;
+	margin-top:5px;
+	margin-left:10px;
+}
+
+
+
+/*为什么这个不起作用  声明没错*/
+li.header-two-li{
+	margin-top:20px;
+}
+
+
+
+
+/*内容区域的声明*/
+div.content{
+	width: 1200px;
+	margin:0px auto;
+	margin-top:57px;
+	background-color:#F0F1F3;
+	overflow:hidden;
+}
+div.content-one{
+	width: 954px;
+	margin:0px auto;
+	overflow:hidden;
+}
+div.cont-one,div.cont-one p{
+	display:block;
+	width: 285px;
+	float: left;
+	margin-right:33px;
+	/*background-color:pink;*/
+}
+div.cont-one p{
+	margin-top:43px;
+	margin-bottom:24px;
+	margin-left:10px;
+}
+div.cont-one img{
+	display:block;
+	float:left;
+	margin-bottom:8px;
+	margin-right:17px;
+	clear:left;
+}
+div.cont-one-one{
+	display: block;
+	float:right;
+	width: 153px;
+	height: 84px
+}
+
+div.cont-one-one span{
+	display: block;
+	float: left;
+	font-size: 12px;
+	background-color:#D0D1D3;
+}
+div.cont-one-one li{
+	list-style:none;
+	display: block;
+	float:left;
+	font-size:12px;
+	color:#595959;
+	margin-top:10px;
+}
+div.cont-two{
+	display:block;
+	float: left;
+	font-size:12px;
+	margin-left:20px;
+	margin-top:25px;
+	margin-bottom:25px;
+}
+
+
+/*第五层的css样式实现*/
+div.five{
+	width: 954px;
+	margin:0px auto;
+	overflow: hidden;
+}
+div.five *{
+	display: block;
+}
+div.five p{
+	width:610px;
+	float:left;
+	padding-left:15px;
+	margin-top:40px;
+	margin-bottom:20px;
+}
+div.five .five-pone{
+	width:314px;
+	float:right;
+}
+div.five img{
+	float:left;
+	margin-left:8px;
+}
+div.five .five-img{
+	margin-left: 0px;
+}
+
+
+/*底部css样式的实现*/
+footer{
+	background-color:#1F2024;
+	overflow: hidden;
+	height:298px;
+	border-bottom:2px solid #333438;
+}
+footer *{
+	display:block;
+}
+.footer-first{
+	width:954px;
+	margin:0px auto;
+}
+.footer-first div{
+	width:152px;
+	margin-left:8px;
+	display:block;
+	float:left;
+	/*background-color:pink;*/
+}
+div.footer-one{
+	width:312px;
+	margin-left:0px;
+}
+footer p{
+	width:152px;
+	margin-top:40px;
+	margin-bottom:20px;
+	margin-left:10px;
+	color:#8F9092;
+}
+
+footer li{
+	list-style:none;
+	float:left;
+	clear:left;
+	margin-left:10px;
+	margin-bottom:10px;
+	font-size:12px;
+	color:#FFFFFF;
+}
+.footer-li{
+	color:#8F9092;
+	margin-bottom:5px;
+}
+div.footer-div{
+	background-color:#424243;
+	margin-bottom:5px;
+	font-size:12px;
+	height:40px;
+	line-height:40px;
+	text-align: center;
+}
+
+
+
+/*最后一层css样式的实现*/
+div.last{
+	background-color:#1F2024;
+	overflow:hidden;
+}
+div.last-last{
+	width:954px;
+	/*height:200px;*/
+	display:block;
+	margin:0px auto;
+}
+div.last div{
+	display:block;
+}
+div.llast-one{
+	/*background-color: yellow;*/
+	margin-top:30px;
+	margin-bottom:5px;
+	width:556px;
+	overflow:hidden;
+	float: left;
+}
+div.last-last li{
+	display:block;
+	list-style: none;
+	float:left;
+}
+div.llast-one span{
+	display:block;
+	color: #FFFFFF;
+	float:left;
+	margin-right:25px;
+}
+div.llast-one li{
+	font-size:12px;
+	margin-left:25px;
+	color:494A4D;
+}
+div.llast-two{
+	margin-bottom: 30px;
+	overflow:hidden;
+	width: 600px;
+	/*background-color: yellow;*/
+	float: left;
+}
+div.llast-two li{
+	font-size: 13px;
+	margin-right:20px;
+
+}
+div.llast-two li.llast-li{
+	font-size:12px;
+}
+
+div.llast-three{
+	display:block;
+	width:160px;
+	float:right;
+	/*background-color: yellow;*/
+	/*margin-bottom:30px;*/
+	/*background-color:pink;*/
+
+
+}
+div.llast-three img{
+	display:block;
+	float:right;
+
+}

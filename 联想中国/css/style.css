@@ -1,0 +1,585 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+nav,header,footer{
+	display: block;
+}
+
+
+/*导航层的css   即第一层*/
+nav{
+	background-color: #000000;
+}
+nav>div{
+	width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+nav li{
+	display: block;
+	float: left;
+	height: 18px;
+	list-style: none;
+	font-size: 14px;
+	color: #FDFCFB;
+	border-left: 1px solid #FDFCFB;
+	margin: 10px 0px;
+	padding: 0px 10px;
+}
+nav .first-one{
+	padding-left: 0px;
+	border-left: 1px solid #000000;
+}
+nav .first-three{
+	float: right;
+}
+nav .first-four{
+	border-left: 1px solid #000000;
+}
+
+
+
+/*头部css层   也是第二层的css*/
+div.headiv{
+	width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+div.headiv-one{
+	width: 223px;
+	height: 132px;
+	display: block;
+	float: left;
+	padding-top: 30px;
+}
+div.headiv-one button{
+	background-color: #E52119;
+	font-size: 18px;
+	border: 1px solid #E52119;
+	display: block;
+	float: left;
+}
+div.headiv-one b{
+	display: block;
+	float: left;
+	font-size: 18px;
+	margin-left: 5px;
+}
+div.headiv-tto{
+	width: 638px;
+	height: 37px;
+	display: block;
+	float: right;
+	/*text-align: center;*/
+	line-height: 37px;
+	margin-top: 30px;
+	border: 2px solid #E52119;
+}
+div.headiv-ttw{
+	display: block;
+	float: right;
+	background-color: #E52119;
+	width: 145px;
+	height: 41px;
+	line-height: 40px;
+	text-align: center;
+	margin-top: 30px;
+}
+div.headiv-two span{
+	display: block;
+	float: left;
+	margin-left: 10px;
+}
+div.headiv-two button{
+	display: block;
+	float: right;
+	border: 0px;
+	padding: 0px 10px;
+	margin: 10px 5px;
+}
+div.headiv-three li{
+	list-style: none;
+	display: block;
+	float: left;
+	clear: right;
+	margin: 26px 17px;
+}
+div.headiv-three-li{
+	margin-left: 0px;
+}
+
+
+
+/*第三层的css样式*/
+div.third{
+	width: 1200px;
+	margin:0px auto;
+}
+div.third-one{
+	width: 210px;
+	height: 363px;
+	overflow: hidden;
+	border: 1px solid #EEEEEE;
+}
+div.tho-one{
+	height: 42px;
+	line-height: 42px;
+	width: 190px;
+	background-color:#EEEEEE;
+	/*text-align:center;*/
+	padding-left: 20px;
+	display: block;
+	float: left;
+}
+div.third-one li{
+	width: 150px;
+	display: block;
+	float: left;
+	list-style: none;
+	display: block;
+	float:left;
+	font-size: 11px;
+	margin:5px 20px;
+	clear:left;
+}
+div.third-one .tho-three-lone{
+	font-size: 16px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+div.tho-two{
+	border: 1px solid #EAEAEA;
+}
+div.third-two{
+	width: 970px;
+	display: block;
+	float: right;
+	overflow: hidden;
+}
+div.third-two img{
+	display: block;
+	float: right;
+	width: 100%;
+	max-width: 100%;
+}
+
+
+
+/*第四层的css样式*/
+
+div.fourth{
+	width: 1200px;
+	margin:0 auto;
+}
+div.fourth-one {
+	overflow: hidden;
+	margin-top: 5px;
+	margin-bottom: 20px;
+}
+div.fourth-one img{
+	display: block;
+	float: right;
+	margin-top: 5px;
+}
+div.fourth-one b{
+	display: block;
+	float: left;
+	margin-top: 30px;
+}
+div.fourth-two div{
+	width: 300px;
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+}
+div.fourth-two-one{
+ 	width: 600px;
+ }
+
+
+
+ /*重复层的css样式表*/
+ div.resee-div {
+ 	width: 1200px;
+ 	margin:0px auto;
+ }
+div.resee-div div{
+ 	display: block;
+ 	float: left;
+ 	width: 288px;
+ 	height: 146px;
+ 	margin:10px 7px;
+ 	/*background-color: pink;*/
+}
+div.reseeddone {
+	margin-left: 0px;
+}
+div.reseeddtwo{
+	margin-right: 0px;
+}
+
+
+
+/*第六层的css样式实现*/
+div.sixth{
+	width: 1200px;
+	margin: 0px auto;
+	overflow: hidden;
+}
+.sixth p{
+	margin-top: 40px;
+	width: 1200px;
+	margin-bottom: 10px;
+	float: left;
+	display: block;
+	float: left;
+}
+div.sixth-one{
+	width: 213px;
+	height: 359px;
+	display: block;
+	float: left;
+	/*background-color: pink;*/
+}
+div.sixth-two{
+	width: 290px;
+	height: 359px;
+	display: block;
+	float: left;
+	margin-left: 10px;
+	/*background-color: yellow;*/
+}
+div.sixth-three{
+	width: 447px;
+	height: 359px;
+	margin-left: 10px;
+	display: block;
+	float: left;
+	background-color: #97C057;
+}
+div.sixth-four{
+	width: 215px;
+	height: 359px;
+	margin-left: 10px;
+	display: block;
+	float: left;
+	background-color: #8f82BC;
+}
+div.sixth-one-one p{
+	display: block;
+	float: left;
+	width: 96px;
+	height: 39px;
+	line-height: 39px;
+	font-size: 14px;
+	text-align: center;
+	margin: 0px;
+	margin-left: 10px;
+}
+div.sixth-one-two p{
+	display: block;
+	float: left;
+	margin: 0px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	width: 213px;
+	font-size: 14px;
+	text-align: center;
+}
+div.sixth-one-three p{
+	width: 170px;
+	border-top: 1px solid #EAEAEA;
+	padding-top: 10px;
+}
+div.sixth-one-two li{
+	display: block;
+	float: left;
+	font-size: 12px;
+	margin-bottom: 15px;
+	margin-left: 20px;
+}
+div.sixth-one-two .sixth-one-tli{
+	margin-left: 50px;
+}
+div.sixth-three p{
+	width: 447px;
+	height: 39px;
+	line-height: 39px;
+	text-align: center;
+	margin: 0px;
+}
+div.sixth-four p{
+	width: 215px;
+}
+
+/*第七层的css样式实现*/
+.seventh p{
+	margin-top: 40px;
+	width: 1200px;
+	margin-bottom: 10px;
+	float: left;
+	display: block;
+	float: left;
+}
+
+
+/*第七层布局css的实现*/
+div.seventh{
+	width: 1200px;
+	margin: 0px auto;
+	overflow: hidden;
+}
+div.seventh-one{
+	width: 240px;
+	height: 508px;
+	display: block;
+	float: left;
+}
+div.seventh-one p{
+	display: block;
+	float: left;
+	height: 39px;
+	margin: 0px;
+	width: 240px;
+	line-height: 39px;
+	text-align: center;
+	background-color: #92C0FA;
+}
+
+
+div.seventh-two{
+	width: 462px;
+	height: 508px;
+	display: block;
+	float: left;
+	margin-left: 10px;
+}
+div.seventh-two p{
+	height: 39px;
+	line-height: 39px;
+	width: 400px;
+	display: block;
+	float: left;
+	text-align: center;
+	margin: 0px;
+	background-color: #D9D042;
+}
+div.seventh-two-div span{
+	width: 65px
+	height:39px;
+	display: block;
+	float: left;
+	line-height: 39px;
+	padding-left: 20px;
+	padding-right: 10px;
+	text-align: center;
+	background-color: #D9D042;
+}
+div.seventh-three{
+	width: 472px;
+	height: 508px;
+	display: block;
+	float: left;
+	margin-left: 10px;
+}
+div.seventh-three span{
+	width: 75px
+	height:39px;
+	display: block;
+	float: left;
+	line-height: 39px;
+	padding-left: 30px;
+	padding-right: 10px;
+	text-align: center;
+	background-color: #C490BF;
+}
+
+
+
+
+/*第八层css样式的实现*/
+div.eighth{
+	width: 1200px;
+	margin:0px auto;
+	overflow: hidden;
+}
+div.eighth p{
+	width: 1200px;
+	display: block;
+	float: left;
+	text-align: left;
+	margin-top: 90px;
+	margin-bottom: 10px;
+}
+div.eighth-one-one{
+	display: block;
+	float: left;
+	width: 291px;
+	height: 182px;
+	margin-right: 14px;
+}
+div.eighth-one-two{
+	width: 890px;
+	height: 182px;
+	display: block;
+	float: left;
+	overflow: hidden;
+	background-color: #F0F0F0;
+}
+div.eighth-one-two li{
+	list-style: none;
+	display: block;
+	float: left;
+	/*clear: both;*/
+	width: 800px;
+	text-align: left;
+	font-size: 12px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 26px;
+}
+div.eighth-one-two-three{
+	width: 850px;
+	height: 43px;
+	line-height: 43px;
+	padding-left: 26px;
+	padding-right: 12px;
+	border-bottom: 1px dashed #B4B4B4;
+	display: block;
+	float: left;
+}
+div.eighth-one-two-three p{
+	display: block;
+	float: left;
+	width: 800px;
+	margin: 0px;
+}
+div.eighth-one-two-three span{
+	display: block;
+	float: right;
+}
+
+
+/*第十层css样式的实现*/
+div.tenth{
+	width: 1200px; 
+	margin: 0px auto;
+	background-color: #F6F6F6;
+	overflow: hidden;
+}
+div.tenth div{
+	display: block;
+	float: left;
+	margin-left: 101.5px;
+	height: 32px;
+	line-height: 32px;
+	margin-top: 27px;
+	margin-bottom:27px;
+}
+div.tenth *{
+	display: block;
+	float: left;
+	height: 32px;
+	line-height: 32px;
+}
+div.tenth-last{
+	float: right;
+}
+div.tenth-last *{
+	float: right;
+}
+
+
+/*十一层的css样式实现*/
+div.eleventh{
+	width: 1200px;
+	margin: 0px auto;
+	overflow: hidden;
+}
+div.eleventh div{
+	display: block;
+	float: left;
+	margin-left: 155px;
+	margin-bottom: 20px;
+}
+div.eleventh span{
+	display: block;
+	float: left;
+	margin-top: 30px;
+}
+div.eleventh li{
+	display: block;
+	float: left;
+	list-style: none;
+	font-size: 12px;
+	clear: left;
+	margin-top:2px;
+	margin-bottom: 2px;
+}
+div.eleventh-one{
+	margin-left: 0px;
+}
+div.eleventh a{
+	text-decoration: none;
+	color: #5d5d5d;
+}
+
+
+
+
+/*底部css样式的实现*/
+footer{
+	width: 1200px;
+	height: 95px;
+	margin: 0px auto;
+	background-color: #F5F5F5;
+	padding-top: 35px;
+	text-align: center;
+	overflow: hidden;
+}
+footer div{
+	display: block;
+	float: none;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	overflow: hidden;
+	width: 1050px;
+}
+footer li{
+	display: block;
+	float: left;
+	font-size: 12px;
+	height: 14px;
+	padding-left: 14px;
+	padding-right: 14px;
+	border-left:1px solid #B299BD;
+}
+footer .footli-first{
+	border-left: 1px solid #F5F5F5;
+}
+footer .footli-second{
+	border-left:1px solid #F5F5F5;
+	clear: left;
+}
+
+
+/*固定层的实现*/
+div.fixed{
+	position: fixed;
+	width: 110px;
+	height: 29px;
+	bottom: 50px;
+	right: 50px;
+	overflow: hidden;
+}
+div.fixed img{
+	display: block;
+	float: left;
+	height: 20px;
+}
+div.fixed select{
+	height: 20px;
+	float: left;
+}
