@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>clock show</title>
+	<style>
+		canvas{
+			border:2px solid skyblue;
+		}
+	</style>
+</head>
+<body>
+	<h1>这是我画的钟表</h1>
+	<canvas width="600" height="600" id="one">
+		this canvas can't show lala!
+	</canvas>
+	<script>
+		var cans = document.getElementById("one");
+		var context = cans.getContext("2d");
+
+		
+		// 
+
+
+
+		function run(){
+			context.beginPath();
+			// context.arc(250,250,190,0,Math.PI*2,false);
+			context.arc(300,300,190,0,Math.PI*2,false);
+			context.closePath();
+
+			context.fillStyle = "pink";
+			context.fill();
+				for(var i=0;i<=60;i++){
+				context.save();
+				context.translate(300,300);
+				context.rotate(Math.PI/30*i);
+				context.beginPath();
+				context.moveTo(0,-180);
+				context.lineTo(0,-190);
+				context.lineWidth = "3";
+				context.strokeStyle = "black";
+				context.closePath();
+				context.stroke();
+				context.restore();
+			}
+
+			for(var i=0;i<=12;i++){
+				context.save();
+				context.translate(300,300);
+				context.rotate(Math.PI/6*i);
+				context.beginPath();
+				context.moveTo(0,-170);
+				context.lineTo(0,-190);
+				context.lineWidth = "7";
+				context.strokeStyle = "yellow";
+				context.closePath();
+				context.stroke();
+				context.restore();
+			};
+
+
+			/*
+			context.save();
+			context.translate(300,300);
+			// context.rotate(Math.PI/6*i);
+			context.beginPath();
+			context.moveTo(0,0);
+			context.lineTo(0,-160);
+			context.lineWidth = "4";
+			context.strokeStyle = "rgb(254,12,230)";
+			context.closePath();
+			context.stroke();
+			context.restore();
+			*/
+
+			//    设置秒钟的走动
+			var seconds = new Date().getSeconds();
+			context.save();
+			context.translate(300,300);
+			context.rotate(Math.PI/30*seconds);
+			context.beginPath();
+			context.moveTo(0,0);
+			context.lineTo(0,-165);
+			context.lineWidth = "1.5";
+			context.strokeStyle = "rgb(254,12,230)";
+			context.closePath();
+			context.stroke();
+			context.restore();
+
+
+			//   设置分钟的走动
+			var minutes = new Date().getMinutes();
+			// console.log("lalala",minutes);
+			context.save();
+			context.translate(300,300);
+			context.rotate(Math.PI/30*seconds/60+minutes*Math.PI/30);
+			context.beginPath();
+			context.moveTo(0,0);
+			context.lineTo(0,-135);
+			context.lineWidth = "3.5";
+			context.strokeStyle = "rgb(254,12,230)";
+			context.closePath();
+			context.stroke();
+			context.restore();
+
+
+			//   设置时针的走动
+			var hours = new Date().getHours();
+			console.log("lalala",hours);
+			context.save();
+			context.translate(300,300);
+			var MM = parseInt(minutes);
+			context.rotate(Math.PI/6*hours+Math.PI/6/60*minutes);
+			context.beginPath();
+			context.moveTo(0,0);
+			context.lineTo(0,-115);
+			context.lineWidth = "6";
+			context.strokeStyle = "rgb(254,12,230)";
+			context.closePath();
+			context.stroke();
+			context.restore();
+
+		}
+
+		// setTimeout(run(),1000);
+		setInterval(run,1000);
+
+
+
+	</script>
+</body>
+</html> 

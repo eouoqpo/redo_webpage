@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>绘制圆</title>
+	<style>
+		canvas{
+			/* 宽高只能设置在canvas中 */
+			/* 为什么？  不知道 */
+			border:2px solid rgb(215,105,236);
+		}
+	</style>
+</head>
+<body>
+	<canvas id="one" height="600" width="800">
+		this table (canvas) can't show
+	</canvas>
+	<script>
+		//   无法显示   在css中不能同时设置width 和 height
+		var canvas = document.getElementById('one');
+
+		var context2 = canvas.getContext("2d");
+		context2.beginPath();
+		context2.arc(350,300,100,0,Math.PI*2);
+		context2.closePath();
+		context2.fillStyle = "blue";
+		context2.fill();
+
+		var context = canvas.getContext("2d");
+		context.beginPath();
+		context.arc(400,300,50,0,Math.PI,false);
+		context.closePath();
+		context.fillStyle = "pink";
+		context.fill();
+
+		var context1 = canvas.getContext("2d");
+		context1.beginPath();
+		context1.arc(300,300,50,0,Math.PI,true);
+		context1.closePath();
+		context1.fillStyle = "yellow";
+		context1.fill();
+
+
+		var context3 = canvas.getContext("2d");
+		context3.beginPath();
+		context3.arc(300,300,10,0,Math.PI*2,true);
+		context3.closePath();
+		context3.fillStyle = "red";
+		context3.fill();
+
+
+		var context4 = canvas.getContext("2d");
+		context4.beginPath();
+		context4.arc(400,300,10,0,Math.PI*2,false);
+		context4.closePath();
+		context4.fillStyle = "red";
+		context4.fill();
+		
+	</script>
+</body>
+</html>
